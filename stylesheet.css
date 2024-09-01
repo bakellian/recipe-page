@@ -50,8 +50,12 @@ h2 {
 
 span {
     color: #7A284E;
+    font-weight: bold;
 }
 
+.span-intructions {
+    color: #312E2C;
+}
 
 table {
     border-collapse: collapse;
@@ -60,7 +64,11 @@ table {
 
 tr {
     border-top: 1px solid #E3DDD7;
-    padding: 2%;
+}
+
+td {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
 }
 
 hr {
@@ -69,6 +77,17 @@ hr {
     border-top: 1px solid #E3DDD7;
     margin-top: 2rem;
     margin-bottom: 2rem;
+}
+
+
+ul li {
+    margin-bottom: .5rem;
+    padding-left: 1rem;
+}
+
+ol li {
+    margin-bottom: .5rem;
+    padding-left: 1rem;
 }
 
 
