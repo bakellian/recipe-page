@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
 body {
     background-color: #F3E5D7;
     display: flex;
@@ -5,6 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100svh;
+    font-family: ;
 }
 
 .recipe-card {
@@ -12,7 +16,8 @@ body {
     border-radius: 1.5rem;
     padding: 2.5rem;
     max-width: 46rem;
-    text-align: center;
+    display: flex;
+    justify-content: left;
 }
 
 .recipe-image-wrapper {
@@ -20,4 +25,19 @@ body {
     max-width: 41rem;
     overflow: hidden;
     border-radius: 1.5rem;
+}
+
+h1 {
+    color: #312E2C;
+    font-size: 2.5rem;
+}
+
+.preparation {
+    background-color: #FFF7FB;
+    padding: 1.5rem;
+    border-radius: .75rem;
+}
+
+span {
+    color: #7A284E;
 }
