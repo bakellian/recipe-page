@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
 
 body {
     background-color: #F3E5D7;
@@ -8,7 +9,9 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100svh;
-    font-family: ;
+    font-family: "Outfit", sans-serif;
+    color: #312E2C;
+    line-height: 150%;
 }
 
 .recipe-card {
@@ -30,6 +33,13 @@ body {
 h1 {
     color: #312E2C;
     font-size: 2.5rem;
+    font-family: "Young Serif", serif;
+}
+
+h2 {
+    color: #854632;
+    font-size: 1.75rem;
+    font-family: "Young Serif", serif;
 }
 
 .preparation {
@@ -41,3 +51,23 @@ h1 {
 span {
     color: #7A284E;
 }
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr {
+    border-top: 1px solid #E3DDD7;
+    padding: 2%;
+}
+
+hr {
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #E3DDD7;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
