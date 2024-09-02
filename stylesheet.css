@@ -12,6 +12,7 @@ body {
     font-family: "Outfit", sans-serif;
     color: #312E2C;
     line-height: 150%;
+    text-wrap: pretty;
 }
 
 .recipe-card {
@@ -25,9 +26,10 @@ body {
 
 .recipe-image-wrapper {
     max-height: 18.75rem;
-    max-width: 41rem;
-    overflow: hidden;
+    max-width: 46rem;
+    overflow: hidden; 
     border-radius: 1.5rem;
+    object-fit: cover;
 }
 
 h1 {
